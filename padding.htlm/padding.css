@@ -1,0 +1,119 @@
+.blue1{
+    background-color: rgb(23, 191, 238);
+    width: 1200px;
+    height: 600px;
+    margin: 400px auto;
+    box-sizing: border-box;
+    /* Измени padding - top right bottom left */
+    padding-top: 150px;
+    padding-left: 300px;
+}
+
+.green1{
+    background-color: rgb(62, 225, 17);
+    width: 600px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.blue2{
+    background-color: rgb(23, 191, 238);
+    width: 1200px;
+    height: 600px;
+    margin: 400px auto;
+    box-sizing: border-box;
+    /* Измени padding - top right bottom left */
+    padding-left: 600px;
+
+}
+
+.green2{
+    background-color: rgb(62, 225, 17);
+    width: 600px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.blue3{
+    background-color: rgb(23, 191, 238);
+    width: 1200px;
+    height: 600px;
+    margin: 400px auto;
+    box-sizing: border-box;
+    /* Измени padding - top right bottom left */
+    padding-top: 300px; 
+
+}
+
+.green3{
+    background-color: rgb(62, 225, 17);
+    width: 600px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.blue4{
+    background-color: rgb(23, 191, 238);
+    width: 1200px;
+    height: 600px;
+    /* margin: 400px auto; */
+    box-sizing: border-box;
+    /* Измени padding - top right bottom left */
+    padding-top: 300px;
+    padding-left: 600px;
+
+}
+
+.green4{
+    background-color: rgb(62, 225, 17);
+    width: 600px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.blue5{
+    background-color: rgb(23, 191, 238);
+    width: 1200px;
+    height: 600px;
+    margin: 400px auto;
+    box-sizing: border-box;
+    /* Измени padding - top right bottom left */
+    padding-left: 300px ;
+    padding-top: 300px;
+}
+
+.green5{
+    background-color: rgb(62, 225, 17);
+    width: 600px;
+    height: 300px;
+    box-sizing: border-box;
+    padding-bottom: 300px;
+}
+
+.blue6{
+    background-color: rgb(23, 191, 238);
+    width: 1200px;
+    height: 600px;
+    margin: 400px auto;
+    box-sizing: border-box;
+    /* Измени padding - top right bottom left */
+    padding-top: 150px;
+    padding-left: 600px;
+}
+
+.green6{
+    background-color: rgb(62, 225, 17);
+    width: 600px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+
+a {
+    display: block;
+}
+
+
+div {
+    display: inline-block;
+}

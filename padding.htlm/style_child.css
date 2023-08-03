@@ -1,0 +1,24 @@
+ul {
+    width: 50%;
+    margin: 20px auto;
+    font-size: 40px;
+}
+
+
+
+
+li:nth-child(even){
+    background: greenyellow;
+}
+
+li:nth-child(odd){
+    background-color: red;
+}
+
+li:last-child{
+    background: orange;
+}
+
+li:first-child{
+    background-color: blue;
+}
