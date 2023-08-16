@@ -27,3 +27,15 @@ button {
     background: rgb(245, 243, 243);
 
 }
+
+input {
+    box-sizing: border-box;
+    padding: 40px 5px;
+    width: 100%;
+    text-align: right;
+    font-size: 40px;
+}
+
+.btnEqual {
+    width: 99%
+}
