@@ -5,7 +5,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@500;800&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.1">
+    <meta name="viewport" contentюхзцгн3длуолзуод Дььое="width=device-width, initial-scale=1.1">
     <title>Lego city</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,7 +13,8 @@
     <div class="box">
         </body>
     <header>
-        <h1 style="font-size: 40px; color: red;" >Топ 4 набора лего сити</h1>
+        <h1 style="font-size: 40px; color: red;" >Лего наборы</h1>
+        <h3 id="username">Привет, Graff!</h3>
     </header>
     <div class="content">
     <main>
@@ -39,6 +40,9 @@
             <img src="Lego creator 2.jpg" alt="" class="slide hide">
             <img src="Lego creator 1.jpg" alt="" class="slide hide">
             <img src="lego technic 1.jpg" alt="" class="slide hide">
+            <img src="car lego.webp" alt="" class="slide hide">
+            <img src="car 1.webp" alt="" class="slide hide">
+            <img src="lego file.webp" alt="" class="slide hide">
             <img src="лего.webp" alt="" class="slide hide">
             <button class="left">Назад</button>
             <button class="right">Вперёд</button>   
@@ -50,9 +54,26 @@
         <a href="index.html">Lego car</a>
         <a href="index4.html">Lego technic</a>
         <a href="index5.html">Сайт в разработке!</a>
+        <a href="index6.html">История наших подразделений</a>
     </nav>
-  </div>
-</div>   
+</div>
 <script src="script.js"></script>
+<script>
+    let name = prompt("Введите своё имя!");//просим пользователя ввести значение
+    document.getElementById("username").innerHTML= `Привет, ${name}!`;
+    if (name == "Lego Graff_King") {
+        // window.open('https://www.youtube.com/@lego_graff_king1747/about');
+        window.location.href = 'https://www.youtube.com/@lego_graff_king1747/about';
+    }
+    if (name == "Graff_King") {
+        // window.open('https://www.youtube.com/@lego_graff_king1747/about');
+        window.location.href = 'Пасхалка.html';
+    }
+    if (name == "2023") {
+        //window.open('secretindex.html');
+        window.location.href = 'Пасхалка2.html';
+    }
+</script>
 </body>
+
 </html>

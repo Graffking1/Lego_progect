@@ -1,5 +1,6 @@
 var colors = ["Blue", "Green", "Red", "Orange"];
 
+
 var btn = document.getElementById("btn");
 var index = 0;
 
@@ -26,6 +27,13 @@ function changeIndexGo(){
     currentSlide = elements[i];
 }
 
+function changeIndexBack() {
+    oldSlide = elements[i];
+    i = i - 1;
+    if (i <0) i = 7;
+    currentSlide = elements[i];
+}
+
 go.addEventListener('click', function () {
     changeIndexGo();
     oldSlide.classList.add('hide');
@@ -34,4 +42,6 @@ go.addEventListener('click', function () {
 
 back.addEventListener('click', function () {
     changeIndexBack();
+    oldSlide.classList.add('hide');
+    currentSlide.classList.remove('hide');
 });
